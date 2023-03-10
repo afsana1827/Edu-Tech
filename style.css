@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+     font-family:'Poppins', sans-serif;
     background-color:white;
 }
 a, p, li, button{
@@ -55,10 +55,13 @@ button{
     text-align: center;
 
 }
-.card1, .card2, .card3 ,.card4,.card5,.card6{
+.card1, .card2, .card3, .card4, .card5, .card6 {
     padding: 10px 30px;
     border-radius: 10px;
-}
+    width: 600px; /* set the width to 300px */
+    height: 400px; /* set the height to 200px */
+  }
+  
 .catagories img{
     width: 100px;
 
@@ -72,3 +75,50 @@ button{
     background-color: white;
     border-top: none;
 }
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+   
+  }
+  
+  .container-2 h1 {
+    text-align: center;
+  }
+  .conatiner-3{
+    text-align: center;
+  }
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+  }
+ .p-3{
+   padding: 70px;
+   margin: 50px;
+   height: 200px;
+   border-radius: 10px;
+
+   
+
+ }
+ .buy-now-button-4{
+    float: right;
+ }
+ .text-emphasis-primary {
+    background-color: transparent;
+  }
+  .conatiner-5{
+    padding: 20px;
+    text-align: justify;
+  }
