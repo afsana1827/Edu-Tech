@@ -58,8 +58,8 @@ button{
 .card1, .card2, .card3, .card4, .card5, .card6 {
     padding: 10px 30px;
     border-radius: 10px;
-    width: 600px; /* set the width to 300px */
-    height: 400px; /* set the height to 200px */
+    width: 600px;
+    height: 400px;
   }
   
 .catagories img{
@@ -119,6 +119,64 @@ h2 {
     background-color: transparent;
   }
   .conatiner-5{
-    padding: 20px;
+    padding: 20px ;
     text-align: justify;
   }
+  .conatiner-5{
+    text-align: center;
+  }
+  .btn-group{
+    text-align: center;
+  }
+  .line{
+    text-align: center;
+  }
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    display: inline-block;
+    margin-right: 20px; 
+  }
+  
+  .links li:last-child {
+    margin-right: 0;
+  }
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .links li:last-child {
+    margin-right: 0; 
+  }
+  
+  .links img {
+    height: 30px;
+    vertical-align: middle; 
+    margin-right: 5px; 
+  }
+  footer {
+    background-color: black;
+  
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 100% ;
+    margin: 0 auto;
+    text-align: center;
+  }
+.main{
+  height: 70px;
+  width: 40px;
+}
